@@ -1,0 +1,46 @@
+body { 
+    margin: 0;
+    background-color: #030303;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d5d6d6;
+}
+
+.topNav{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topNav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: (0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.topNavRight {
+    float: right;
+}
+
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexItem1 {
+    padding: 15px;
+    flex: 50%;
+}
+
+.flexItem1 img {
+    width: 80%;
+}
